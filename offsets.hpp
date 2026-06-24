@@ -6,8 +6,8 @@
 /*  Dumped With     : RbxDumperV2                               
 /*  Roblox Version  : version-8884371d30284041
 /*  Dumper Version  : 2.1.7
-/*  Dumped At       : 21:03 16/06/2026 (GMT)
-/*  Total Offsets   : 390
+/*  Dumped At       : 10:20 23/06/2026 (GMT)
+/*  Total Offsets   : 392
 /* -------------------------------------------------------------
 /*  Join the discord!                                           
 /*  https://offsets.imtheo.lol/discord                          
@@ -48,6 +48,17 @@ namespace Offsets {
 
     namespace Attachment {
          inline constexpr uintptr_t Position = 0xdc;
+    }
+
+    namespace Attribute {
+         inline constexpr uintptr_t Key = 0x0;
+         inline constexpr uintptr_t Size = 0x58;
+         inline constexpr uintptr_t Value = 0x18;
+    }
+
+    namespace AttributesMap {
+         inline constexpr uintptr_t Attributes = 0x10;
+         inline constexpr uintptr_t Length = 0x0;
     }
 
     namespace BasePart {
@@ -242,15 +253,12 @@ namespace Offsets {
     }
 
     namespace Instance {
-         inline constexpr uintptr_t AttributeContainer = 0x48;
-         inline constexpr uintptr_t AttributeList = 0x18;
-         inline constexpr uintptr_t AttributeToNext = 0x58;
-         inline constexpr uintptr_t AttributeToValue = 0x18;
          inline constexpr uintptr_t ChildrenEnd = 0x8;
          inline constexpr uintptr_t ChildrenStart = 0x78;
-         inline constexpr uintptr_t ClassBase = 0xcc0;
+         inline constexpr uintptr_t ClassBase = 0x230;
          inline constexpr uintptr_t ClassDescriptor = 0x18;
          inline constexpr uintptr_t ClassName = 0x8;
+         inline constexpr uintptr_t ComponentMap = 0x38;
          inline constexpr uintptr_t Name = 0xb0;
          inline constexpr uintptr_t Parent = 0x70;
          inline constexpr uintptr_t This = 0x8;
@@ -313,7 +321,7 @@ namespace Offsets {
 
     namespace MeshContentProvider {
          inline constexpr uintptr_t AssetID = 0x10;
-         inline constexpr uintptr_t Cache = 0xe8;
+         inline constexpr uintptr_t Cache = 0xf0;
          inline constexpr uintptr_t LRUCache = 0x20;
          inline constexpr uintptr_t MeshData = 0x40;
          inline constexpr uintptr_t ToMeshData = 0x40;
@@ -354,7 +362,7 @@ namespace Offsets {
          inline constexpr uintptr_t InputObject = 0x108;
          inline constexpr uintptr_t InputObject2 = 0x118;
          inline constexpr uintptr_t MousePosition = 0xec;
-         inline constexpr uintptr_t SensitivityPointer = 0x307;
+         inline constexpr uintptr_t SensitivityPointer = 0x7d92898;
     }
 
     namespace ParticleEmitter {
@@ -489,7 +497,7 @@ namespace Offsets {
     }
 
     namespace SpawnLocation {
-         inline constexpr uintptr_t AllowTeamChangeOnTouch = 0x1f0;
+         inline constexpr uintptr_t AllowTeamChangeOnTouch = 0x3d;
          inline constexpr uintptr_t Enabled = 0x1f1;
          inline constexpr uintptr_t ForcefieldDuration = 0x1e8;
          inline constexpr uintptr_t Neutral = 0x1f2;
@@ -551,7 +559,7 @@ namespace Offsets {
     }
 
     namespace Tool {
-         inline constexpr uintptr_t CanBeDropped = 0x4c0;
+         inline constexpr uintptr_t CanBeDropped = 0x1f5;
          inline constexpr uintptr_t Enabled = 0x4c1;
          inline constexpr uintptr_t Grip = 0x4b4;
          inline constexpr uintptr_t ManualActivationOnly = 0x4c2;
