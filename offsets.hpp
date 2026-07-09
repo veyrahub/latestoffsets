@@ -4,9 +4,9 @@
 /*                  https://offsets.imtheo.lol                  
 /* -------------------------------------------------------------
 /*  Dumped With     : RbxDumperV2                               
-/*  Roblox Version  : version-90f2fddd3b244ff6
+/*  Roblox Version  : version-36a2600cebf1487d
 /*  Dumper Version  : 2.1.7
-/*  Dumped At       : 01:05 07/07/2026 (GMT)
+/*  Dumped At       : 19:53 08/07/2026 (GMT)
 /*  Total Offsets   : 392
 /* -------------------------------------------------------------
 /*  Join the discord!                                           
@@ -17,7 +17,7 @@
 #include <cstdint>
 #include <string>
 namespace Offsets {
-    inline std::string ClientVersion = "version-90f2fddd3b244ff6";
+    inline std::string ClientVersion = "version-36a2600cebf1487d";
 
     namespace AirProperties {
          inline constexpr uintptr_t AirDensity = 0x18;
@@ -184,7 +184,7 @@ namespace Offsets {
     }
 
     namespace FakeDataModel {
-         inline constexpr uintptr_t Pointer = 0x7cb3d78;
+         inline constexpr uintptr_t Pointer = 0x84a9e98;
          inline constexpr uintptr_t RealDataModel = 0x1d0;
     }
 
@@ -362,7 +362,7 @@ namespace Offsets {
          inline constexpr uintptr_t InputObject = 0xf0;
          inline constexpr uintptr_t InputObject2 = 0x100;
          inline constexpr uintptr_t MousePosition = 0xd4;
-         inline constexpr uintptr_t SensitivityPointer = 0x7e743c8;
+         inline constexpr uintptr_t SensitivityPointer = 0x0;
     }
 
     namespace ParticleEmitter {
@@ -432,7 +432,7 @@ namespace Offsets {
          inline constexpr uintptr_t ActionText = 0xb0;
          inline constexpr uintptr_t Enabled = 0x136;
          inline constexpr uintptr_t GamepadKeyCode = 0x11c;
-         inline constexpr uintptr_t HoldDuration = 0x97;
+         inline constexpr uintptr_t HoldDuration = 0x120;
          inline constexpr uintptr_t KeyCode = 0x124;
          inline constexpr uintptr_t MaxActivationDistance = 0x128;
          inline constexpr uintptr_t ObjectText = 0xd0;
@@ -453,8 +453,8 @@ namespace Offsets {
     }
 
     namespace RunService {
-         inline constexpr uintptr_t HeartbeatFPS = 0xd0;
-         inline constexpr uintptr_t HeartbeatTask = 0x308;
+         inline constexpr uintptr_t HeartbeatFPS = 0xb4;
+         inline constexpr uintptr_t HeartbeatTask = 0xc08;
     }
 
     namespace Script {
@@ -497,7 +497,7 @@ namespace Offsets {
     }
 
     namespace SpawnLocation {
-         inline constexpr uintptr_t AllowTeamChangeOnTouch = 0x188;
+         inline constexpr uintptr_t AllowTeamChangeOnTouch = 0x3d;
          inline constexpr uintptr_t Enabled = 0x189;
          inline constexpr uintptr_t ForcefieldDuration = 0x180;
          inline constexpr uintptr_t Neutral = 0x18a;
@@ -536,7 +536,7 @@ namespace Offsets {
          inline constexpr uintptr_t JobName = 0x18;
          inline constexpr uintptr_t JobStart = 0xc8;
          inline constexpr uintptr_t MaxFPS = 0xb0;
-         inline constexpr uintptr_t Pointer = 0x8244248;
+         inline constexpr uintptr_t Pointer = 0x8041ec8;
     }
 
     namespace Team {
@@ -587,7 +587,7 @@ namespace Offsets {
     namespace VisualEngine {
          inline constexpr uintptr_t Dimensions = 0xab0;
          inline constexpr uintptr_t FakeDataModel = 0xa90;
-         inline constexpr uintptr_t Pointer = 0x83d1f98;
+         inline constexpr uintptr_t Pointer = 0x81d61c8;
          inline constexpr uintptr_t RenderView = 0xbb8;
          inline constexpr uintptr_t ViewMatrix = 0x150;
     }
